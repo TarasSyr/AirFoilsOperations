@@ -48,10 +48,10 @@ def rotate_points(input_file, output_file, axis, angle_degrees):
 
 # Використання функції
 # Вхідний файл із координатами
-input_file = "txt/naca09_root_chord_wing.txt"
+input_file = "txt/naca09_tip_chord_tail.txt"
 
 # Вихідний файл для обернених координат
-output_file = "naca09_root_chord_tail.txt"
+output_file = "txt/naca09_tip_chord_tail.txt"
 
 # Виберіть вісь ('x', 'y', 'z') і кут обертання
 rotate_points(input_file, output_file, axis='x', angle_degrees=315)  # Наприклад, обертання на 45° навколо осі X

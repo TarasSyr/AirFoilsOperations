@@ -1,6 +1,6 @@
 # Ім'я вхідного та вихідного файлів
-input_file = "txt/n0009sm.txt"  # Вхідний файл із двома координатами
-output_file = "txt/points_with_z.txt"  # Вихідний файл із доданою третьою координатою
+input_file = "txt/clarky.txt"  # Вхідний файл із двома координатами
+output_file = "txt/clarky_with_z.txt"  # Вихідний файл із доданою третьою координатою
 
 # Читання з вхідного файлу
 with open(input_file, "r") as infile:
