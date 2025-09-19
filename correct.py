@@ -1,7 +1,7 @@
 import math
 import csv
 
-inp = "txt/naca0009.txt"
+inp = "txt/selig"
 outp = "txt/naca0009.txt"
 
 def dist(a,b):
