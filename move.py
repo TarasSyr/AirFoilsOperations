@@ -9,8 +9,8 @@ for line in lines:
 
     # Зміщення та зміна координат
     new_x = x
-    new_y = y
-    new_z = z + 1
+    new_y = y - 2.5
+    new_z = z
     transformed_lines.append(f"{new_x} {new_y} {new_z}\n")
 
 # Записуємо результат в новий файл
