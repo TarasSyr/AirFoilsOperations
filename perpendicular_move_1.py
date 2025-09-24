@@ -29,8 +29,8 @@ def shift_airfoil(points, distance):
     return points + normal * distance
 
 # ==== Використання ====
-root = load_airfoil("txt/naca0012_root.txt")
-tip = shift_airfoil(root, -20.0)   # зміщуємо на 200 мм по нормалі
+root = load_airfoil("txt/naca0012_tip.txt")
+tip = shift_airfoil(root, -57.0)   # зміщуємо на 200 мм по нормалі
 
-save_airfoil("txt/naca0012_root-.txt", tip)
+save_airfoil("txt/naca0012_tip.txt", tip)
 print("Збережено файл tip airfoil у naca0012_tip.txt")
